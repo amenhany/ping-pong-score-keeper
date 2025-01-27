@@ -12,3 +12,5 @@ The aim of this website is to provide a score keeper for a 2-player Ping Pong ga
 git clone https://github.com/amenhany/ping-pong-score-keeper.git
 ```
 2. Open index.html
+
+![Banner](imgs/preview.png)
