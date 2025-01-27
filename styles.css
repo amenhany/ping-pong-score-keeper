@@ -1,0 +1,94 @@
+body {
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #363636;
+    font-family: "Roboto", san-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 700px;
+    margin: 2rem;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+}
+
+.card {
+    padding: 1.5rem;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02)
+}
+
+.imgContainer img {
+    height: 25em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    padding: 0.75rem 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#scoreboard {
+    margin: 0;
+    font-size: 3em;
+}
+
+.subtitle {
+    color: #4a4a4a;
+    margin-top: -0.2rem;
+    font-size: 1.25rem;
+}
+
+.card label {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#winScore,
+#playerCount {
+    font-size: 1.5rem;
+    color: #4a4a4a;
+}
+
+.cardFooter button {
+    width: 233px;
+    margin: 0;
+    padding: 1.25rem 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3298dc;
+}
+
+@media (max-width:715px) {
+    .cardFooter button {
+        width: 50%;
+    }
+}
+
+button.p1 {
+    background-color: #00d1b2;
+}
+
+button.p2 {
+    background-color: #3298dc;
+}
+
+button.reset {
+    background-color: #f14668;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: darkred;
+}
